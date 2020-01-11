@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='icon' href='avatar.png'>
+        <title>Mithileysh</title>
+
+        <style>
+            body {
+                background-color: #edf8fb;
+                max-width: 1024px;
+                margin: 10px auto; /* center whole page */
+            }
+            .summary {
+                text-align: center;
+            }
+            .summary img {
+                width: 50px;
+                border-radius: 50%;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+            .summary span {
+                font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+                color: black;
+            }
+            .projects {
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .project {
+                margin: 20px auto; /* center all projects */
+                width: 300px;
+                border: 1px solid hsl(0, 0%, 80%);
+                border-radius: 5px;
+                box-shadow: 0 0 5px hsl(0, 0%, 80%);
+                display: inline-block;
+                text-decoration: none;
+            }
+            .project:hover {
+                border: 1px solid orangered;
+                box-shadow: 0 0 5px orangered;
+                transition: all 0.2s ease-in-out;
+            }
+            .project img {
+                max-width: 100%;
+                max-height: 200px;
+                display: block;
+                margin: auto;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+            .project span {
+                font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+                font-size: 12px;
+                border-top: 1px solid hsl(0, 0%, 80%);
+                display: block;
+                padding: 5px;
+                color: gray;
+            }
+            .project span .title {
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='summary'>
+            <img src="images/avatar.png"/>
+            <span>Mithileysh is an educator and a researcher interested in Digital Experience, Interaction Experience (HCI), Data Experience, Communication, Visualisation, and Social Informatics. Some of his projects are below.</span>
+        </div>
+        <h2>Security and Privacy Usability Project</h2>
+        <h3>Project Funders: Nokia, Finland</h3>
+        <h3>Project Collaboration: University of Brighton, UK</h3>
+
+        <p>What is it about visualisations that makes them ideal to solve the big problem of security, privacy and usability?
+           Here are some of my projects.</p>
+
+        <div class='projects'>
+          <a class='project' href='http://vis4sense.github.io/timesets/index.html' target='_blank' >
+              <img src="images/timesets.png">
+              <span><b class='title'>TimeSets.</b> Timeline Visualization with Set Relations.</span>
+          </a>
+            <a class='project' href='https://mithileysh.github.io/Security-Monitoring-Visualisation-System/' target='_blank' >
+              <img src="images/secmonvis.png">
+              <span><b class='title'>SecMon VIS.</b> Security Monitoring Visualisation System.</span>
+          </a>
+          <a class='project' href='https://mithileysh.github.io/Spherule-time-Diagram/' target='_blank' >
+              <img src="images/spheruletime.png">
+              <span><b class='title'>Spherule-time.</b> Spherule-time Diagrams.</span>
+          </a>
+          <a class='project' href='https://mithileysh.github.io/Linear-time-Diagram/' target='_blank' >
+              <img src="images/lineartime.png">
+              <span><b class='title'>Linear-time.</b> Linear-time Diagrams.</span>
+          </a>
+          <a class='project' href='https://mithileysh.github.io/Euler-time-diagram/' target='_blank' >
+              <img src="images/eulertime.png">
+              <span><b class='title'>Euler-time.</b> Euler-time Diagrams.</span>
+          </a>
+          <a class='project' href='http://mithileysh.github.io/Force-Euler-Diagram/' target='_blank' >
+              <img src="images/fbed.png">
+              <span><b class='title'>FBED.</b> Force-based Euler Diagrams.</span>
+          </a>s
+        </div>
+    </body>
+</html>
